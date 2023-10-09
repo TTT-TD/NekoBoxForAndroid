@@ -242,7 +242,7 @@ fun Project.setupApp() {
         applicationVariants.all {
             outputs.all {
                 this as BaseVariantOutputImpl
-                outputFileName = outputFileName.replace(project.name, "NB4A-$versionName")
+                outputFileName = outputFileName.replace(project.name, "TTBox-$versionName")
                     .replace("-release", "")
                     .replace("-oss", "")
             }
